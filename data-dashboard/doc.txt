@@ -1,0 +1,18 @@
+-npm create vite@latest data-dashboard --template react
+-react
+-javascrip
+
+-cd data-dashboard
+-npm install
+
+Para las peticiones HTTP: axios.
+Para el enrutamiento: react-router-dom.
+Para pruebas: jest, @testing-library/react, @testing-library/jest-dom.
+
+npm install axios react-router-dom
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom
+
+
+css en vite tailwind
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
